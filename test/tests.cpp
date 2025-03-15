@@ -149,7 +149,7 @@ TEST(faStr3Test, MultipleWordsSameLength) {
 }
 
 TEST(faStr3Test, MultipleWordsDifferentLength) {
-    EXPECT_EQ(faStr3("Hello world test"), 5); 
+    EXPECT_EQ(faStr3("Hello world test"), 5);
 }
 
 TEST(faStr3Test, LeadingAndTrailingSpaces) {
